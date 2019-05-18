@@ -1,0 +1,9 @@
+n=3
+
+a=[[0]*n for _ in range(n)]
+
+for i in range(n):
+
+    a[i]=[int(j) for j in input().split()]
+
+print(a[0][1])    
