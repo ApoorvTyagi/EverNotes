@@ -6,21 +6,21 @@ Students can also see the details of their admin as well as their department's t
 All the uploaded notes will have the details like the name of the person who uploaded,time,type etc.
 
 ## Screenshots
-### Home Page
+Home Page
     <img src="7.png" style="width:50%;float:left">
-### Login Screen
+Login Screen
     <img src="1.png" style="width:50%;float:left">
-### Logout Screen
+Logout Screen
     <img src="2.png" style="width:50%;float:left">
-### Dashboard(Student)
+Dashboard(Student)
     <img src="3.png" style="width:50%;float:left">
-### Admin Details View
+Admin Details View
     <img src="4.png" style="width:50%;float:left">
-### Faculty Details View
+Faculty Details View
     <img src="5.png" style="width:50%;float:left">
-### Dashboard(Admin)                    
+Dashboard(Admin)                    
     <img src="6.png" style="width:50%;float:left">
-### Database View (Notes.sql)                            
+Database View (Notes.sql)                            
      <img src="8.png" style="width:50%;float:left">
      <img src="9.png" style="width:50%;float:left">
      
@@ -28,3 +28,4 @@ All the uploaded notes will have the details like the name of the person who upl
 ## Project Contributuors
 * [Apoorv Tyagi](https://www.github.com/apoorvtyagi)
                                 
+* [Aditya Ranjan](https://www.github.com/adityaranjan8) For handling  the designing part
