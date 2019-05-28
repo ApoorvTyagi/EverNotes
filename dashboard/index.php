@@ -56,9 +56,9 @@ while ($row = mysqli_fetch_array($run_query)) {
     echo "<td>$file_description</td>";
     echo "<td>$file_type</td>";
     echo "<td>$file_date</td>";
-    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank'> $file_uploader </a></td>";
+    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank' style='color:green'> $file_uploader </a></td>";
     echo "<td>$file_status</td>";
-    echo "<td><a href='allfiles/$file' target='_blank' style='color:green'>View </a></td>";
+    echo "<td><a href='allfiles/$file' target='_blank' style='color:blue'>View </a></td>";
 	if($file_status!='approved')
 	{
 	    echo "<td><a onClick=\"javascript: return confirm('Are you sure you want to approve this note?')\"href='?approve=$file_id'><i class='fa fa-times' style='color: red;'></i>Approve</a></td>";
@@ -140,7 +140,7 @@ else if($_SESSION['role'] == 'teacher'){
                         <th>Type </th>
                         <th>Uploaded by</th>
                         <th>Uploaded on</th>
-                        <th>Download</th>
+                        <th>View</th>
                         
                     </tr>
                 </thead>
@@ -165,9 +165,9 @@ while ($row = mysqli_fetch_array($run_query)) {
     echo "<td>$file_name</td>";
     echo "<td>$file_description</td>";
     echo "<td>$file_type</td>";
-    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank'> $file_uploader </a></td>";
+    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank' style='color:green'> $file_uploader </a></td>";
     echo "<td>$file_date</td>";
-    echo "<td><a href='allfiles/$file' target='_blank' style='color:green'>Download </a></td>";
+    echo "<td><a href='allfiles/$file' target='_blank' style='color:blue'>Open </a></td>";
  echo "</tr>";
 
 
@@ -201,7 +201,7 @@ else{
                         <th>Type </th>
                         <th>Uploaded by</th>
                         <th>Uploaded on</th>
-                        <th>Download</th>
+                        <th>View</th>
                         
                     </tr>
                 </thead>
@@ -226,9 +226,9 @@ while ($row = mysqli_fetch_array($run_query)) {
     echo "<td>$file_name</td>";
     echo "<td>$file_description</td>";
     echo "<td>$file_type</td>";
-    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank'> $file_uploader </a></td>";
+    echo "<td><a href='viewprofile.php?name=$file_uploader' target='_blank' style='color:green'> $file_uploader </a></td>";
     echo "<td>$file_date</td>";
-    echo "<td><a href='allfiles/$file' target='_blank' style='color:green'>Download </a></td>";
+    echo "<td><a href='allfiles/$file' target='_blank' style='color:blue'>Open </a></td>";
  echo "</tr>";
 
 

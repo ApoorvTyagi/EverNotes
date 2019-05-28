@@ -1,8 +1,6 @@
 <?php
 include ('includes/connection.php');
 include ('includes/adminheader.php');
-
-
 ?>
 <?php
 if (isset($_SESSION['username'])) {

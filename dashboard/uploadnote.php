@@ -86,14 +86,14 @@ if (isset($_SESSION['id'])) {
 
 
 	<div class="form-group">
-		<label for="post_title">Note Title</label>
-		<input type="text" name="title" class="form-control" placeholder="Eg: Php Tutorial File"  value = "<?php if(isset($_POST['upload'])) {
+		<label for="post_title">Title</label>
+		<input type="text" name="title" class="form-control" placeholder="Eg: Php "  value = "<?php if(isset($_POST['upload'])) {
             echo $file_title; } ?>" required="">
 	</div>
 
 	<div class="form-group">
 		<label for="post_tags">Short Note Description</label>
-		<input type="text" name="description" class="form-control" placeholder="Eg: Php Tutorial File includes basic php programming ...." value="<?php if(isset($_POST['upload'])) {
+		<input type="text" name="description" class="form-control" placeholder="Eg: Php Lecture-1 File" value="<?php if(isset($_POST['upload'])) {
             echo $file_description;  } ?>" required="" ">
 	</div>
 
