@@ -28,4 +28,4 @@ Database View (Notes.sql)
 ## Project Contributuors
 * [Apoorv Tyagi](https://www.github.com/apoorvtyagi)
                                 
-* [Aditya](https://www.github.com/adityaranjan8) (For handling  the designing part)
+* [Aditya](https://www.github.com/adityaranjan8) (For helping in the designing part)
