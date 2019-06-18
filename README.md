@@ -23,9 +23,3 @@ Dashboard(Admin)
 Database View (Notes.sql)                            
      <img src="8.png" style="width:50%;float:left">
      <img src="9.png" style="width:50%;float:left">
-     
-     
-## Project Contributuors
-* [Apoorv Tyagi](https://www.github.com/apoorvtyagi)
-                                
-* [Aditya](https://www.github.com/adityaranjan8) (For helping in the designing part)
